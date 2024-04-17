@@ -1,0 +1,108 @@
+.education{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    margin: 80px 170px;
+}
+
+.ed-title{
+    position: relative;
+}
+
+.edu-title h1{
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.edu-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.edu-sections{
+    display: flex;
+    gap:80px;
+}
+
+.edu-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.edu-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.edu-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edu-skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+.edu-skill p{
+    min-width:150px;
+    font-size: 20x;
+    font-family: 500;
+}
+
+.edu-skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106%);
+}
+
+.edu-achievements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.edu-achievement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.edu-achievement h1{
+    font-size: 45px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.edu-achievement p{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.edu-skill:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.edu-achievement:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}
